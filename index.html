@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="common.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap"
+    rel="stylesheet" />
+  <title>S-Panorama</title>
+</head>
+
+<body>
+  <div class="body-wrap">
+    <div class="header-wrap">
+      <div class="head-logo wid-25">
+        <h2>
+          <span>S</span>
+          <span>Panorama</span>
+        </h2>
+      </div>
+      <div class="search-p-head wid-50">
+        <input type="text" placeholder="Search For Products" id="search-bar" />
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="head-atc wid-25">
+        <div class="cart-head"><span><i class="fa-solid fa-cart-arrow-down"></i></span><span>5</span></div>
+        <div class="wishlist-head"><span><i class="fa-solid fa-heart"></i></span><span>10</span></div>
+      </div>
+    </div>
+    <!--header-wraper-->
+    <div class="cont-cat-ban-wrap">
+      <div class="cont-banner-wrapper wid-75">
+        <div class="cont-banner-head">
+          <div class="cbh-left wid-75">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Products Details <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="cbh-right wid-25">
+            <button id="reg">Register</button>
+            <button id="log">Login</button>
+          </div>
+        </div><!--banner-head-->
+        <div class="cont-banner">
+          <img src="./banner-ads.jpg" alt="" class="img-src">
+          <div class="banner-text">
+            <div style="font-size: 1.2rem;">50% OFF ON YOUR FIRST ORDER</div>
+            <div style="font-size: 3rem; font-weight: bolder;">Fashionable Dress</div>
+            <button>Shop Now</button>
+          </div>
+        </div><!--cont-banner-->
+      </div>
+      <!--end-of-wrap-ban-->
+      <div class="cont-category wid-25">
+        <div class="cat-head">
+          <h3 class="wid-75">Categories</h4>
+            <span class="wid-25"><i class="fa-solid fa-angle-down"></i></span>
+        </div>
+        <div class="category-item">
+          <ul>
+            <li><a href="#">Kid's Wear</a></li>
+            <li><a href="#">Men's Wear</a></li>
+            <li><a href="#">Women's Wear</a></li>
+            <li><a href="#">Boy's Wear</a></li>
+            <li><a href="#">Girl's Wear</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--cont-ban-cat-wrap-->
+    <div class="our-partner-wrap dlayout">
+      <div class="left-hr">
+        <Hr>
+        </Hr>
+      </div>
+      <h3>Our Services</h3>
+      <div class="right-hr">
+        <hr>
+      </div>
+    </div>
+    <div class="web-features">
+      <div class="features-items wid-15"><span><i class="fa-solid fa-check"></i></span>Quality Products</div>
+      <div class="features-items wid-15"><span><i class="fa-solid fa-shipping-fast"></i></span>Free Shipping</div>
+      <div class="features-items wid-15"><span><i class="fa-solid fa-exchange-alt"></i></span>7 Days Return</div>
+      <div class="features-items wid-15"><span><i class="fa-solid fa-phone-volume"></i></span>24/7 Support</div>
+    </div><!--end-web-features-->
+    <div class="offer-banner-wrap">
+      <div class="offer-banner wid-40">
+        <div class="ob-image wid-40"><img src="./beautiful-curly-girl-pointing-finger-removebg-preview.png" alt=""
+            class="img-src"></div>
+        <div class="ob-image-text">
+          <div class="h1">20% OFF ON YOUR FIRST ORDER</div>
+          <div class="h2">Summer Dresses</div>
+          <button>Shop Now</button>
+        </div>
+      </div>
+      <div class="offer-banner wid-40">
+        <div class="ob-image wid-40">
+          <img src="./man-bac-removebg-preview.png" alt="" class="img-src">
+        </div>
+        <div class="ob-image-text">
+          <div class="h1">50% OFF ON YOUR FIRST ORDER</div>
+          <div class="h2">Winter Dresses</div>
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </div><!--offer-banner-->
+    <div class="our-partner-wrap dlayout">
+      <div class="left-hr">
+        <Hr>
+        </Hr>
+      </div>
+      <h3>Trending Products</h3>
+      <div class="right-hr">
+        <hr>
+      </div>
+    </div>
+    <div class="cart-wrap">
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./ladies-sweater.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Formal Pant</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 940</span>
+            <span id="pv-pr">Rs 1900</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./men-casual-pant.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>T-Shirt</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 650</span>
+            <span id="pv-pr">Rs 999</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./t-shirt.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Ladies Sweater</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 1050</span>
+            <span id="pv-pr">Rs 1999</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./jeans.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Girl Jeans</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 999</span>
+            <span id="pv-pr">Rs 1499</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+    </div><!--end-cart-wrap-->
+    <div class="cart-wrap">
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./headphone-h.jpeg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>JBL Headphone</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 1999</span>
+            <span id="pv-pr">Rs 2499</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./earphone-h.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Earphone Wired</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 750</span>
+            <span id="pv-pr">Rs 1129</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./speaker-h.jpeg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Infinity Speaker</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 3100</span>
+            <span id="pv-pr">Rs 4499</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./akg-sam.png" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Akg-Earphone</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 4999</span>
+            <span id="pv-pr">Rs 6999</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+    </div><!--cart-w-2-->
+    <div class="cart-wrap">
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./iphone-12.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Apple 12 Pro</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 110000</span>
+            <span id="pv-pr">Rs 130000</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./redmi-12pro.jpeg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Redmi Note 12 Pro</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 18999</span>
+            <span id="pv-pr">Rs 21000</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./f34-sam.png" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Samsung F34</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 16999</span>
+            <span id="pv-pr">Rs 18999</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./s9-sam.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Samsung Galaxy S9</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 31000</span>
+            <span id="pv-pr">Rs 34999</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+    </div><!--cart-wrap-3-->
+    <div class="cart-wrap">
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./facewash-acne.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Denever Facewash</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 490</span>
+            <span id="pv-pr">Rs 599</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./powder.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Pond's Powder</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 49</span>
+            <span id="pv-pr">Rs 79</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./lakme-cream.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Lakme cream</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 499</span>
+            <span id="pv-pr">Rs 650</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+      <div class="cart-item wid-20">
+        <div class="img-container">
+          <img src="./hair-oil.jpg" alt="" class="img-src">
+        </div>
+        <div class="cart-desc-pr">
+          <h3>Almond Oil</h3>
+          <div class="cart-pr">
+            <span id="cr-pr">Rs 349</span>
+            <span id="pv-pr">Rs 499</span>
+          </div>
+        </div>
+        <div class="view-add-cart">
+          <div class="view-cart"><i class="fa-solid fa-eye"></i><a href="#">View Details</a></div>
+          <div class="add-t-c"><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Add to Cart</a></div>
+        </div>
+      </div>
+    </div><!--cart-wrap-4-->
+    <div class="stay-updated-wrap">
+      <div class="s-upadte-content">
+        <h2>Stay Updated</h2>
+        <p>To receive trending products at fair prices from genuine vendors, please enter your email...
+        </p>
+        <div class="email-alert">
+          <input type="text" placeholder="Enter Your Email Here..." id="email-alt">
+          <button id="sub-btn">Subscribe</button>
+        </div>
+      </div>
+    </div><!--stay-updated-wrap-->
+    <div class="our-partner-wrap dlayout">
+      <div class="left-hr">
+        <Hr>
+        </Hr>
+      </div>
+      <h3>Our Partners</h3>
+      <div class="right-hr">
+        <hr>
+      </div>
+    </div><!--our-partner-->
+    <div class="our-partners-wrap">
+      <div class="partner-item ">
+        <img src="./allen-solly.png" alt="" class="img-src">
+      </div>
+      <div class="partner-item ">
+        <img src="./harman.jpg" alt="" class="img-src">
+      </div>
+      <div class="partner-item ">
+        <img src="./calvin.jpg" alt="" class="img-src">
+      </div>
+      <div class="partner-item ">
+        <img src="./infinix.jpg" alt="" class="img-src">
+      </div>
+      <div class="partner-item ">
+        <img src="./adidas.png" alt="" class="img-src">
+      </div>
+
+    </div><!--partners-wrap-->
+    <div class="footer-wrap">
+      <div class="footer-items wid-20">
+        <div class="head-logo">
+          <h2>
+            <span>S</span>
+            <span>Panorama</span>
+          </h2>
+        </div>
+        <p>Shoping Panorama is an online store where you may find popular items at fair prices.We created this
+          e-commerce with passion and have only listed sincere vendors.</p>
+        <div class="contact-deatils">
+          <div class="address cd-margin"><span><i class="fa fa-map-marker-alt icon"></i></span>123 Street,NewYork,USA</div>
+          <div class="email-add cd-margin"><span><i class="fa fa-envelope icon"></i></span>info@example.com</div>
+          <div class="phone-no cd-margin"><span><i class="fa fa-phone icon"></i></span>+012 345 67890</div>
+        </div>
+
+      </div>
+      <div class="footer-items wid-20">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Home</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Our Shops</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Shop Details</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Checkout</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">About Us</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-items wid-20">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Home</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Our Shops</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Shop Details</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Checkout</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">About Us</a></li>
+          <li><span><i class="fa fa-angle-right"></i></span><a href="#">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-items wid-20">
+        <h3>News Letter</h3>
+        <div class="e-name-btn-wrap">
+          <input type="text" placeholder="Enter Name" id="n-name">
+          <input type="text" placeholder="Enter Email" id="n-mail">
+          <button id="n-btn">Subscribe</button>
+        </div>
+      </div>
+    </div><!--end-footer-wrap-->
+    <div class="footer-btm">
+      <div class="f-bm-rights"><i class="fa-solid fa-copyright"></i><span>Coding Panorama.</span>All Rights
+        Reserved.Designed By <span>Niraj Soni</span></div>
+      <div class="f-bm-payment">
+        <div class="img-pay"><img src="./card.png" alt="" class="img-src-p"></div>
+        <div class="img-pay"><img src="./paypal.png" alt="" class="img-src-p"></div>
+        <div class="img-pay"><img src="./upi.png" alt="" class="img-src-p"></div>
+        <div class="img-pay"><img src="./visa.png" alt="" class="img-src-p"></div>
+      </div>
+    </div>
+  </div>
+  <!--body-wrap-->
+</body>
+
+</html>
